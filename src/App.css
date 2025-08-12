@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.filter-sidebar {
+  position: sticky;
+  top: 100px; 
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
