@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+Update src/services/api.js and update the URL poiting to your Backend 
+
+const api = axios.create({
+  baseURL: "http://localhost:5168/api", 
+});
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
